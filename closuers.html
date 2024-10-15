@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>closuers</title>
+</head>
+<body>
+    <script>
+        function init() {
+            let name = "ankit"; 
+            function displayName() {
+            let age=20;
+            console.log(name); 
+        }
+        displayName();
+        function age(){
+            console.log(age);
+        }
+        age();
+
+}
+init();
+// inner function can use parent function variables
+// if in parent function if there is 2 inner function both inner function cannot access there each other variables
+
+    </script>
+</body>
+</html>
