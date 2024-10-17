@@ -1,0 +1,15 @@
+{
+  "name": "first-backend-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ankit ranjan",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "accessibility": "^6.0.6"
+  }
+}
